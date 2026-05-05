@@ -45,7 +45,14 @@ public class Percobaan3 {
             double LuasPersegi = mt.LuasPersegi(Panjang, Lebar);
             double LuasSegitiga = mt.LuasSegitiga(Alas, Tinggi);
             double LuasLingkaran = mt.LuasLingkaran(Jarijari);
-
+            
+            System.out.println("==============================");
+            System.out.println("Hasil Perhitungan Luas : \n");
+            
+            System.out.println("Luas Persegi Panjang : " + String.format("%.2f", LuasPersegi));
+            System.out.println("Luas Segitiga : " + String.format("%.2f", LuasSegitiga));
+            System.out.println("Luas Lingkaran : " + String.format("%.2f", LuasLingkaran));
+            
             JOptionPane.showMessageDialog(null,
                     "Luas Persegi Panjang : " + String.format("%.2f", LuasPersegi) + "\n"
                     + "Luas Segitiga : " + String.format("%.2f",LuasSegitiga) + "\n"
